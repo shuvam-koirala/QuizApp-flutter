@@ -104,6 +104,7 @@ class _QuizPageState extends State<QuizPage> {
         quizBrain.scorekeeper.add(
           Icon(
             Icons.check,
+            size:15,
             color: Colors.green,
           ),
         );
@@ -116,6 +117,7 @@ class _QuizPageState extends State<QuizPage> {
         quizBrain.scorekeeper.add(
           Icon(
             Icons.close,
+            size:15
             color: Colors.red,
           ),
         );
